@@ -1,0 +1,141 @@
+body {
+    margin: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+h1{
+    font-size: 50px;
+    color: rgb(8,253,216);
+}
+.getName-btn:hover{
+background-color: dodgerblue;
+color: white;
+border-radius: 25px;
+background-image: (blue,green);
+height: 35px;
+}
+
+nav {
+    display: flex;
+    background-color:gray ;
+    color: 0x08FDD8;
+}
+ul{
+   
+    display: inline-flex;
+    
+}
+li{
+    text-align: center;
+    padding-left: 50px;
+    
+}
+main {
+    display: flex;
+    text-align: center;
+
+}
+.mainleft{
+      background-color:gray;
+      width: 100%;
+    
+}
+.mainleft:hover{
+    background-color: darkgray;
+}
+.mainright{
+    background-color:gray;
+    width: 100%;   
+}
+.mainright:hover{
+    background-color: darkgray;
+}
+.fieldset{
+    text-align: center;
+    margin: auto;
+    background-color: gray;
+    border-radius: 10px;
+    margin: 0 300px;
+}
+.fieldset:hover{
+    background-color: darkgray;
+}
+
+.form{
+  background-color: gray;
+}
+
+.print{
+    text-align: left;
+    margin: 50px;
+   
+}
+
+.list{
+    text-align: center;
+    padding-left: 50px;
+    color: white;
+    border: 2px solid white ;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    width: 100px;  
+}
+.list:hover{
+    background-color: black;
+}
+
+.label{
+    border-radius: 10px;
+}
+
+@media(max-width: 800px){
+    nav{
+        width: 360px;
+    }
+    #skills{
+    position: relative;    
+    width: 100%;
+    font-size: small;
+    
+    }
+    #Experience{
+    position: relative;   
+    width:100%;
+    font-size: small;
+    }
+    .ull{
+        display: block;
+
+    }
+    #fieldset{
+        position: relative;
+        text-align: left;
+        width: 10px;
+        margin: 10px;
+        left: 10px;
+        font-size: -1px;
+    }
+    #firstname{
+        position: relative;
+        
+    }
+    .label{
+       
+        width: 300px;
+    }
+    h1{
+        font-size: medium;
+    }
+    .form{
+        width: 100%;
+        background-color: gray;
+    }
+    
+}
